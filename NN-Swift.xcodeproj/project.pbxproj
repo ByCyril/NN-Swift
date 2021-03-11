@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015185DA25F9CDCE005CC78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015185D925F9CDCE005CC78A /* Assets.xcassets */; };
-		015185DD25F9CDCE005CC78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015185DB25F9CDCE005CC78A /* LaunchScreen.storyboard */; };
 		015185EC25F9CE04005CC78A /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015185EB25F9CE04005CC78A /* Demo.swift */; };
 		015185EF25F9CE1D005CC78A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015185EE25F9CE1D005CC78A /* NeuralNetwork.swift */; };
 		015185F225F9CE2A005CC78A /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015185F125F9CE2A005CC78A /* CustomOperators.swift */; };
@@ -16,8 +14,6 @@
 
 /* Begin PBXFileReference section */
 		015185CD25F9CDCB005CC78A /* NN-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NN-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		015185D925F9CDCE005CC78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		015185DC25F9CDCE005CC78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		015185DE25F9CDCE005CC78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015185E525F9CDD7005CC78A /* NN-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NN-Swift.entitlements"; sourceTree = "<group>"; };
 		015185EA25F9CE04005CC78A /* NN-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NN-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -60,8 +56,6 @@
 				015185EB25F9CE04005CC78A /* Demo.swift */,
 				015185EE25F9CE1D005CC78A /* NeuralNetwork.swift */,
 				015185F125F9CE2A005CC78A /* CustomOperators.swift */,
-				015185D925F9CDCE005CC78A /* Assets.xcassets */,
-				015185DB25F9CDCE005CC78A /* LaunchScreen.storyboard */,
 				015185DE25F9CDCE005CC78A /* Info.plist */,
 				015185EA25F9CE04005CC78A /* NN-Swift-Bridging-Header.h */,
 			);
@@ -126,8 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015185DD25F9CDCE005CC78A /* LaunchScreen.storyboard in Resources */,
-				015185DA25F9CDCE005CC78A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,17 +137,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		015185DB25F9CDCE005CC78A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				015185DC25F9CDCE005CC78A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		015185DF25F9CDCE005CC78A /* Debug */ = {
