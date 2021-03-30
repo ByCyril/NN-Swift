@@ -7,11 +7,11 @@
 
 import Foundation
 
-let nn = NeuralNetwork()
+let network: NeuralNetwork = NeuralNetwork()
 
 let inputs: [[Float64]] = [[0,0,1],[1,1,1],[0,1,1]]
 let outputs: [[Float64]] = [[0],[1],[0]]
 
-nn.train(inputs, outputs, 500)
+network.train(inputs, outputs)
 
-print(nn.predict([[0,0,1],[1,1,1],[0,1,1],[1,0,0]]))
+print(network.predict([[0,0,1],[1,1,1],[0,1,1],[1,0,0]]))
